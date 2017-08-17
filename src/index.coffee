@@ -4,5 +4,7 @@ decode = require "./decode"
 
 module.exports = (value) ->
   if typeof value is "string"
-  then decode value
+    if value
+    then decode value
+    else {}
   else encode value

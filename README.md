@@ -1,5 +1,5 @@
 
-# form-urlencoded v1.0.0
+# form-urlencoded v1.0.1
 
 Encodes an object (or decodes a string) using `x-www-form-urlencoded` rules.
 
